@@ -3,24 +3,21 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import StudentDashboard from "./components/StudentDashboard";
-import AdminDashboard from "./components/AdminDashboard";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import MyComplaints from "./components/MyComplaints";
+import EditComplaint from "./components/EditComplaint";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-       <Route path="/" element={<StudentDashboard />} />
 
-        <Route path="/dashboard" element={<StudentDashboard />} />
+       <Route path="/"element={<MyComplaints />} />
+        <Route path="/mycomplaints" element={<MyComplaints />} />
+        <Route path="/editcomplaint" element={<EditComplaint />} />
 
-        <Route path="/admindashboard" element={<AdminDashboard />} />
-        
       </Routes>
     </BrowserRouter>
   );
 }
-
 export default App;
-  
