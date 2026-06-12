@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import AddComplaint from "./components/AddComplaint";
+
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AllComplaints from "./components/AllComplaints";
@@ -16,6 +19,8 @@ function App() {
     <BrowserRouter>
       <Routes>
 
+       < Route path="/" element={<AddComplaint  />} />
+<Route path="/addcomplaint" element={<AddComplaint />} />
         <Route path="/" element={<AllComplaints />} />
 
         <Route path="/allcomplaints" element={<AllComplaints />} />
@@ -25,7 +30,6 @@ function App() {
         <Route path="/mycomplaints" element={<MyComplaints />} />
         <Route path="/editcomplaint" element={<EditComplaint />} />
  
-
       </Routes>
     </BrowserRouter>
   );
