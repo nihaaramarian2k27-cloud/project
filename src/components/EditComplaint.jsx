@@ -12,7 +12,7 @@ const EditComplaint = () => {
 
   return (
     <div>
-      <h2>Edit Complaint</h2>
+      <h2> <br />Edit Complaint</h2>
 
       <input type="text" defaultValue="Fan Not Working" />
 

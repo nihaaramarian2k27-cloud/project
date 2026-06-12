@@ -6,7 +6,7 @@ const StudentDashboard = () => {
 
   return (
     <div style={{ padding: "30px" }}>
-      <h1> Student Dashboard</h1>
+      <h1> Student Dashboard <br /></h1>
 
       <div style={{
         display: "flex",
@@ -15,7 +15,7 @@ const StudentDashboard = () => {
         marginTop: "20px"
       }}>
         <div style={{border:"1px solid #ddd",padding:"20px",borderRadius:"10px"}}>
-          <h3>Total</h3>
+          <h3>Total <br />Complaints</h3>
           <h2>5</h2>
         </div>
 

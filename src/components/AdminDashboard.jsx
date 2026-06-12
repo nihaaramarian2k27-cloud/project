@@ -18,12 +18,12 @@ const AdminDashboard = () => {
         }}
       >
         <div style={{ border: "1px solid #ddd", padding: "20px", borderRadius: "10px" }}>
-          <h3>Total Complaints</h3>
+          <h3>Total <br />Complaints</h3>
           <h2>10</h2>
         </div>
 
         <div style={{ border: "1px solid #ddd", padding: "20px", borderRadius: "10px" }}>
-          <h3>Pending</h3>
+          <h3>Pending <br />Complaints</h3>
           <h2>4</h2>
         </div>
 
@@ -33,7 +33,7 @@ const AdminDashboard = () => {
         </div>
 
         <div style={{ border: "1px solid #ddd", padding: "20px", borderRadius: "10px" }}>
-          <h3>Resolved</h3>
+          <h3>Resolved <br />Complaints</h3>
           <h2>3</h2>
         </div>
       </div>

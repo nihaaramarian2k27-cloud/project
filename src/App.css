@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f6f9;
+  background-color:white;
 }
 
 .container {
@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-  color: #333;
+  color: black;
 }
 
 input {

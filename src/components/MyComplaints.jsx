@@ -6,7 +6,7 @@ const MyComplaints = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <h2>My Complaints</h2>
+      <h2> <br />My Complaints</h2>
 
       <hr />
 
